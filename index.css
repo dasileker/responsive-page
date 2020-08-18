@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 480px) {
+  body:after {
+    content: "s";
+  }
+}
+@media screen and (min-width: 768px) {
+  body:after {
+    content: "m";
+  }
+}
+@media screen and (min-width: 1024px) {
+  body:after {
+    content: "l";
+  }
+}
+@media screen and (min-width: 1280px) {
+  body:after {
+    content: "xl";
+  }
+}
+
+body {
+  color: #555;
+  line-height: 1.5;
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: black;
+  display: flex;
+  width: 100%;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.nav-bar {
+  color: blanchedalmond;
+  list-style-type: none;
+  display: flex;
+  flex: 1;
+}
+
+.nav-bar img {
+  margin-left: 20px;
+}
+
+.link {
+  display: flex;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.link a {
+  margin-left: 10px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.linke {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.nav-bar2 {
+  display: flex;
+  background: transparent;
+  height: 50px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.nav-bar2 p span {
+  color: #ff4422;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.line .fa.fa-arrow-right {
+  position: relative;
+  bottom: 1px;
+  font-size: x-small;
+}
+
+.nav-bar2 button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.nav-bar2 h3 {
+  margin-right: 50px;
+}
+
+.nav-bar2 .links {
+  display: flex;
+  flex: 1;
+}
+
+.nav-bar2 .fa.fa-search {
+  margin-right: 30px;
+}
+
+.nav-bar2 .links a {
+  color: gray;
+}
+
+.line {
+  position: relative;
+  background: #fd3;
+}
+
+.line p {
+  height: 30px;
+  margin-left: 30px;
+}
+
+.img-grid {
+  width: 90%;
+}
+
+.img-grid img {
+  margin-left: 30px;
+  width: 500px;
+}
+
+.aside {
+  display: grid;
+  float: right;
+}
+
+section {
+  margin:  70px 40px;
+}
+
+section p a {
+  text-decoration: none;
+  font-size:  20px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: #ff4422;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 30px 20px;
+  grid-gap: 20px;
+}
