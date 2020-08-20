@@ -20,7 +20,7 @@ a {
 
 nav {
   position: sticky;
-  top: 0px;
+  top: 0;
   display: grid;
   grid-template-columns: 106px auto;
   background-color: white;
@@ -29,6 +29,10 @@ nav {
 
 .nav-logo {
   height: 48px;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .nav-logo a {
@@ -66,6 +70,70 @@ nav {
   height: 100%;
   text-decoration: none;
   padding: 0 10px;
+}
+
+.nav-icons a {
+  display: block;
+  height: 48px;
+  width: 48px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-left: 1px solid #eee;
+}
+
+.wrapper a {
+  text-decoration: none;
+}
+
+.section-latest > a {
+  display: block;
+  width: 100%;
+  height: 96px;
+  box-sizing: border-box;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.links-social a {
+  font-size: 18px;
+  display: grid;
+  height: 40px;
+  width: 40px;
+  color: white;
+  background-color: #333;
+  border-radius: 50%;
+  place-content: center;
+  box-sizing: border-box;
+}
+
+.cover header a,
+.section-popular header {
+  text-decoration: none;
+  font-family: "Shentox", sans-serif;
+}
+
+.deals header > a {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.section-popular h3 a {
+  color: white !important;
+}
+
+.section-popular p a {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.wrapper section header a,
+.middle-wrapper section h2 {
+  color: #f42;
+}
+
+.fund header div a {
+  margin-top: 11px;
 }
 
 .nav-black :nth-child(1) a {
@@ -107,15 +175,6 @@ nav {
   display: flex;
 }
 
-.nav-icons a {
-  display: block;
-  height: 48px;
-  width: 48px;
-  padding: 16px;
-  box-sizing: border-box;
-  border-left: 1px solid #eee;
-}
-
 .nav-icons a:hover {
   color: rgb(85, 85, 85);
 }
@@ -125,7 +184,7 @@ nav {
 }
 
 .yellow {
-  background-color: #ffdd33;
+  background-color: #fd3;
   padding: 0 6px;
   grid-column: span 2;
   text-align: center;
@@ -158,12 +217,7 @@ article .cover-trigger {
   height: 100%;
   width: 100%;
   z-index: 3;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(7, 7, 7, 0.5) 40%,
-    rgba(19, 19, 19, 1) 100%
-  );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(7, 7, 7, 0.5) 40%, rgba(19, 19, 19, 1) 100%);
 }
 
 .cover-date,
@@ -182,6 +236,10 @@ article .cover-trigger {
   cursor: pointer;
 }
 
+footer img {
+  height: 0.7em;
+}
+
 .cover-logo img {
   max-width: 50%;
   margin: 24px;
@@ -192,22 +250,48 @@ article .cover-trigger {
   right: 24px;
 }
 
-.cover article header,
-.section-popular header {
+.deals header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fund header {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.section-latest header {
+  padding: 10px 14px;
+  color: rgb(255, 68, 34);
+}
+
+.section-popular header,
+.cover article header {
   position: absolute;
   bottom: 0;
   padding: 14px 12px;
   z-index: 8;
 }
 
-.cover header a,
-.section-popular header {
-  text-decoration: none;
-  font-family: "Shentox", sans-serif;
+.links-social a:hover {
+  background: transparent;
+  border: 2px solid #333;
 }
 
 .cover header a:hover {
   color: white;
+}
+
+.fund-section h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-latest h5 {
+  font-size: 13px;
+  font-family: "Shentox", sans-serif;
+  line-height: 18px;
 }
 
 .cover header h5,
@@ -234,6 +318,29 @@ article .cover-trigger {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.discount span {
+  display: block;
+  position: relative;
+  top: 32px;
+  right: -16px;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+  font-family: Avalon, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fund-section-middle span {
+  font-size: 13px;
+  color: #555;
+  margin-left: 10px;
+}
+
+.fund-section-bottom span {
+  margin-left: 4px;
+  color: #aaa;
+}
+
 .cover header p span,
 .section-popular header p span {
   margin: 0 3px;
@@ -245,10 +352,6 @@ article .cover-trigger {
   margin: auto;
   display: grid;
   row-gap: 60px;
-}
-
-.wrapper a {
-  text-decoration: none;
 }
 
 .wrapper > section {
@@ -266,14 +369,31 @@ article .cover-trigger {
   font-family: "Passion One", cursive;
 }
 
-.wrapper section header a,
-.middle-wrapper section h2 {
+.news-deals h4 a:hover {
   color: #f42;
+  text-decoration: underline;
+}
+
+.news li a:hover {
+  color: #555;
+}
+
+.section-popular p a:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.section-latest h4 a:hover {
+  color: rgb(255, 68, 34) !important;
+  text-decoration: underline;
 }
 
 .wrapper section header a:hover,
 .middle-wrapper section h2 a:hover {
   color: #000;
+}
+
+footer div {
+  padding: 32px 20px;
 }
 
 .news-deals div {
@@ -292,6 +412,15 @@ article .cover-trigger {
   background-position: 50%;
 }
 
+.deals > div {
+  position: relative;
+}
+
+.fund > div {
+  display: grid;
+  grid-gap: 16px;
+}
+
 .news-deals div div {
   display: block;
   padding: 0;
@@ -302,11 +431,6 @@ article .cover-trigger {
   font-weight: bold;
   margin-top: 4px;
   padding-left: 13px;
-}
-
-.news-deals h4 a:hover {
-  color: #f42;
-  text-decoration: underline;
 }
 
 .news ul {
@@ -321,24 +445,6 @@ article .cover-trigger {
   margin-right: 4px;
 }
 
-.news li a:hover {
-  color: #555;
-}
-
-.deals header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.deals header > a {
-  margin-top: 8px;
-  font-size: 14px;
-}
-
-.deals > div {
-  position: relative;
-}
-
 .deals div .discount {
   display: none;
   position: absolute;
@@ -349,18 +455,6 @@ article .cover-trigger {
   padding: 0;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
   background-repeat: no-repeat;
-}
-
-.discount span {
-  display: block;
-  position: relative;
-  top: 32px;
-  right: -16px;
-  transform: rotate(45deg);
-  text-transform: uppercase;
-  font-family: Avalon, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
 }
 
 .deals .deal-price {
@@ -381,12 +475,6 @@ article .cover-trigger {
   display: block;
 }
 
-.fund header {
-  display: block;
-  justify-content: space-between;
-  margin-bottom: 24px;
-}
-
 .fund header h2 {
   margin: 0;
 }
@@ -397,19 +485,10 @@ article .cover-trigger {
   font-size: 14px;
 }
 
-.fund header div a {
-  margin-top: 11px;
-}
-
 .fund img {
   position: absolute;
   margin: 10px;
   height: 60px;
-}
-
-.fund > div {
-  display: grid;
-  grid-gap: 16px;
 }
 
 .fund-section {
@@ -433,11 +512,6 @@ article .cover-trigger {
   background-color: rgba(255, 68, 34, 0.08);
 }
 
-.fund-section h5 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
 .fund-section h6 {
   font-size: 11px;
   font-family: "Shentox", sans-serif;
@@ -453,12 +527,6 @@ article .cover-trigger {
   border-bottom: 1px solid rgba(255, 68, 34, 0.25);
 }
 
-.fund-section-middle span {
-  font-size: 13px;
-  color: #555;
-  margin-left: 10px;
-}
-
 .fund-section-bottom {
   display: flex;
   flex-wrap: wrap;
@@ -469,11 +537,6 @@ article .cover-trigger {
   font-size: 12px;
   line-height: 16px;
   text-transform: capitalize;
-}
-
-.fund-section-bottom span {
-  margin-left: 4px;
-  color: #aaa;
 }
 
 .middle-wrapper > section {
@@ -490,49 +553,14 @@ article .cover-trigger {
   color: white;
 }
 
-.section-popular h3 a {
-  color: white !important;
-}
-
-.section-popular p a {
-  color: rgba(255, 255, 255, 0.6) !important;
-}
-
-.section-popular p a:hover {
-  color: rgba(255, 255, 255, 1) !important;
-}
-
 .section-latest {
   height: 96px;
   background-color: rgba(255, 68, 34, 0.06);
   box-sizing: border-box;
   margin: 2px 0;
-
   display: grid;
   grid-template-columns: auto 96px;
   justify-content: space-between;
-}
-
-.section-latest > a {
-  display: block;
-  width: 100%;
-  height: 96px;
-  box-sizing: border-box;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-
-.section-latest header {
-  padding: 10px 14px;
-  color: rgb(255, 68, 34);
-}
-
-.section-latest h5 {
-  font-size: 13px;
-  font-family: "Shentox", sans-serif;
-  line-height: 18px;
 }
 
 .section-latest h4 {
@@ -540,9 +568,12 @@ article .cover-trigger {
   font-weight: bold;
 }
 
-.section-latest h4 a:hover {
-  color: rgb(255, 68, 34) !important;
-  text-decoration: underline;
+.links-social li {
+  margin: 8px;
+}
+
+.links-menu li {
+  margin: 8px;
 }
 
 .middle-wrapper section ul li {
@@ -575,18 +606,6 @@ footer {
   color: #aaa;
 }
 
-footer a {
-  text-decoration: none;
-}
-
-footer img {
-  height: 0.7em;
-}
-
-footer div {
-  padding: 32px 20px;
-}
-
 .footer-links {
   background-color: #131313;
 }
@@ -600,27 +619,6 @@ footer div {
   margin-bottom: 21px;
 }
 
-.links-social li {
-  margin: 8px;
-}
-
-.links-social a {
-  font-size: 18px;
-  display: grid;
-  height: 40px;
-  width: 40px;
-  color: white;
-  background-color: #333;
-  border-radius: 50%;
-  place-content: center;
-  box-sizing: border-box;
-}
-
-.links-social a:hover {
-  background: transparent;
-  border: 2px solid #333;
-}
-
 .links-menu {
   display: flex;
   flex-wrap: wrap;
@@ -629,10 +627,6 @@ footer div {
   font-family: "Shentox", sans-serif;
   font-size: 14px;
   margin: auto;
-}
-
-.links-menu li {
-  margin: 8px;
 }
 
 .footer-legal {
@@ -698,6 +692,11 @@ footer div {
   }
 
   /* latest-new */
+  .fund header {
+    display: block;
+    justify-content: space-between;
+  }
+
   .wrapper section h2,
   .wrapper section header {
     grid-column: span 3;
@@ -730,9 +729,10 @@ footer div {
     padding-left: 0;
   }
 
-  .fund header {
-    display: block;
-    justify-content: space-between;
+  .fund > div {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .fund header div {
@@ -754,10 +754,8 @@ footer div {
     content: none;
   }
 
-  .fund > div {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+  .section-latest :nth-child(1) {
+    grid-column: 1;
   }
 
   .fund > div > :nth-last-child(1) {
@@ -769,10 +767,6 @@ footer div {
     grid-template-columns: 1fr 1fr;
     row-gap: 40px;
     column-gap: 20px;
-  }
-
-  .section-latest :nth-child(1) {
-    grid-column: 1;
   }
 }
 
@@ -801,6 +795,10 @@ footer div {
     grid-template-columns: repeat(4, 1fr);
   }
 
+  .fund header {
+    display: flex;
+  }
+
   .wrapper section h2,
   .wrapper section header {
     grid-column: span 4;
@@ -823,8 +821,10 @@ footer div {
     font-size: 13px;
   }
 
-  .fund header {
-    display: flex;
+  .fund > div {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .fund header div {
@@ -839,12 +839,6 @@ footer div {
   .fund header div a::after {
     margin: 0;
     margin-right: 11px;
-  }
-
-  .fund > div {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .fund > div > :nth-last-child(1) {
