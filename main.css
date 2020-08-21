@@ -827,6 +827,7 @@ footer {
   .wrapper section header {
     grid-column: span 4;
   }
+
   .news-deals > div {
     display: block;
     padding: 0;
@@ -869,5 +870,4 @@ footer {
     column-gap: 24px;
     row-gap: 48px;
   }
-
 }
