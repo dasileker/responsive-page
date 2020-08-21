@@ -788,6 +788,18 @@ footer {
     max-height: 560px;
   }
 
+  .news-deals h2 {
+    font-weight: bolder;
+  }
+
+  .middle-wrapper h2 {
+    font-weight: bolder;
+  }
+
+  .fund h2 {
+    font-weight: bolder;
+  }
+
   .cover header h2 {
     font-size: 28px;
     line-height: 28px;
@@ -816,9 +828,7 @@ footer {
     grid-column: span 4;
   }
   
-  .news-deals h2 {
-    font-weight: bolder;
-  }
+
 
   .news-deals > div {
     display: block;
@@ -826,7 +836,7 @@ footer {
   }
 
   .news-deals h4 {
-    font-size: bolder;
+    font-size: 14px;
   }
 
   .news ul {
@@ -863,11 +873,7 @@ footer {
     row-gap: 48px;
   }
 
-  .middle-wrapper h2 {
-    font-weight: bolder;
-  }
+ 
 
-  .fund h2 {
-    font-weight: bolder;
-  }
+ 
 }
