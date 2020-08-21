@@ -6,7 +6,7 @@ This is part of a series of projects to be completed by [Microverse](microverse.
 
 
 # Source Page:
-This assignment consists of making [this](https://thenextweb.com/) Clone page of Teardown Designe.
+This assignment consists of making [this](https://thenextweb.com/) Clone page of TNW page.
 
 # Live Version:
 The demo page can be found [here](https://raw.githack.com/dasileker/responsive-page/page/index.html)
