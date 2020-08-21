@@ -42,10 +42,12 @@ footer a {
   padding: 16px 20px;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .nav-container {
-  width: 100%;
+  margin-left: -110px;
+  width: 109%;
   height: 100%;
   display: grid;
 }
@@ -771,6 +773,9 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
+  body .nav-logo {
+    transform: translate(-106px)
+  }
   .cover {
     height: 75vh;
     max-height: 560px;
