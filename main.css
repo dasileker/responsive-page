@@ -828,8 +828,6 @@ footer {
     grid-column: span 4;
   }
   
-
-
   .news-deals > div {
     display: block;
     padding: 0;
@@ -873,7 +871,4 @@ footer {
     row-gap: 48px;
   }
 
- 
-
- 
 }
