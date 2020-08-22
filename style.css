@@ -57,7 +57,7 @@ a {
 
 .nav-top-links-left li,
 .nav-top-links-right li {
-  padding-right: 8px;
+  padding-right: 15px;
 }
 
 /* first item in menu not opaque */
@@ -721,7 +721,7 @@ footer {
 
 /* media queries */
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
   .logo-box-hidden {
     display: inherit;
     width: 106px;
@@ -731,12 +731,16 @@ footer {
     background-image: linear-gradient(to bottom right, #d9117a, #f74120);
   }
 
+  .nav-top {
+    display: none;
+  }
+
   .cover-main-top {
     display: none;
   }
 }
 
-@media all and (max-width: 1085px) {
+@media all and (max-width: 1024px) {
   .latest-box-item {
     max-width: 33.333333%;
   }
