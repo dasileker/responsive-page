@@ -17,6 +17,7 @@ The demo page can be found [here](https://raw.githack.com/dasileker/responsive-p
 - HTML<br>
 - IMAGES<br>
 - CSS <br>
+- @media query <br>
 
 # GitHub
 @dasileker
