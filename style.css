@@ -86,14 +86,17 @@ a {
 }
 
 .sticky-header-top {
-  display: flex;
   justify-content: space-between;
   background-color: white;
 }
 
 .sticky-header-left {
-  display: flex;
   align-items: center;
+}
+
+.sticky-header-top,
+.sticky-header-left {
+  display: flex;
 }
 
 .latest-pic-container img {
