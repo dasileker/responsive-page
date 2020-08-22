@@ -151,12 +151,28 @@ a {
   padding-top: 100px;
 }
 
-.sticky-header-right {
+.sticky-header-right,
+.sticky-header-search,
+.yellow-bar,
+.social-icon-item a,
+.cover-article-main,
+.cover-main-top,
+.cover-articles-small,
+.latest-box,
+.funding-header,
+.funding-container,
+.section-container,
+.section-pic-box,
+.section-2nd-story-box,
+.latest-deals-headline,
+.social-icons,
+.footer-links-list,
+.footer-legal,
+.footer-legal-text {
   display: flex;
 }
 
 .sticky-header-search {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 48px;
@@ -192,7 +208,6 @@ a {
 .yellow-bar {
   height: 30px;
   font-size: 12px;
-  display: flex;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fd3;
@@ -228,7 +243,6 @@ a {
   width: 40px;
   border-radius: 50%;
   margin: 10px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -260,14 +274,12 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
-  display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
 .cover-main-top {
   flex-basis: 70%;
-  display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -296,7 +308,6 @@ a {
 }
 
 .cover-articles-small {
-  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 10px;
@@ -339,7 +350,6 @@ a {
 }
 
 .latest-box {
-  display: flex;
   flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 30px;
@@ -385,7 +395,6 @@ a {
 /* funding section */
 
 .funding-header {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -394,7 +403,6 @@ a {
 }
 
 .funding-container {
-  display: flex;
   padding-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -479,7 +487,6 @@ a {
 }
 
 .section-container {
-  display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
@@ -555,7 +562,6 @@ a {
   max-width: 368px;
   max-height: 276px;
   margin-top: 15px;
-  display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
@@ -593,7 +599,6 @@ a {
   max-width: 368px;
   height: 100px;
   background-color: rgba(255, 68, 34, 0.05);
-  display: flex;
   justify-content: space-between;
   margin-top: 3px;
   width: 100%;
@@ -630,7 +635,6 @@ a {
 /* latest deals */
 
 .latest-deals-headline {
-  display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
 }
@@ -674,7 +678,6 @@ footer {
 
 .social-icons {
   padding-top: 40px;
-  display: flex;
   flex-wrap: wrap;
   color: #fff;
   justify-content: center;
@@ -685,7 +688,6 @@ footer {
 }
 
 .footer-links-list {
-  display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -708,13 +710,8 @@ footer {
   height: 100px;
   color: rgba(255, 255, 255, 0.7);
   font-size: 10px;
-  display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.footer-legal-text {
-  display: flex;
 }
 
 #heart {
