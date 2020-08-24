@@ -59,7 +59,6 @@ a,
 
 .header-box {
   background-color: var(--burntsienna);
-  top: 0;
 }
 
 .header-box,
@@ -71,13 +70,19 @@ footer {
   width: 100%;
 }
 
-.nav-top {
-  display: flex;
-  height: 32px;
-  background-color: #131313;
-  color: rgba(255, 255, 255, 0.6);
-  justify-content: space-between;
+.nav-top,
+.sticky-header-left,
+.sticky-header-search,
+.hamburger-menu,
+.yellow-bar,
+.social-icon-item a,
+.footer-legal {
   align-items: center;
+}
+
+.nav-top {
+  height: 32px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .nav-top > * {
@@ -99,9 +104,14 @@ footer {
 .section-other-links-box li {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.6);
-  display: block;
   padding: 10px;
   border-bottom: 1px solid rgba(98, 98, 98, 0.4);
+}
+
+.funding-details a,
+.funding-tags a,
+.section-other-links-box li {
+  display: block;
 }
 
 #news,
@@ -114,21 +124,21 @@ footer {
   margin-bottom: 5px;
 }
 
-.sticky-header-top {
+.sticky-header-top,
+.cover-main-top,
+.funding-header,
+.section-2nd-story-box,
+.latest-deals-headline,
+.nav-top {
   justify-content: space-between;
+}
+
+.sticky-header-top {
   background-color: white;
 }
 
-.sticky-header-left {
-  align-items: center;
-}
-
-.sticky-header-top,
-.sticky-header-left {
-  display: flex;
-}
-
-.latest-pic-container img {
+.latest-pic-container img,
+.section-pic-box {
   max-height: 100%;
   max-width: 100%;
   padding-left: 10px;
@@ -138,7 +148,8 @@ footer {
   padding: 16px 20px;
 }
 
-.logo-box-hidden {
+.logo-box-hidden,
+.hamburger-menu {
   display: none;
 }
 
@@ -150,8 +161,12 @@ footer {
   background-image: linear-gradient(to bottom right, #d9117a, #f74120);
 }
 
+.section-flash,
 .sticky-header-links {
   font-family: sans-serif;
+}
+
+.sticky-header-links {
   text-transform: uppercase;
   margin-left: 10px;
 }
@@ -164,8 +179,12 @@ footer {
 
 .sticky-top {
   position: fixed;
-  top: 0;
   z-index: 3;
+}
+
+.header-box,
+.sticky-top {
+  top: 0;
 }
 
 .hero-box {
@@ -194,13 +213,15 @@ footer {
 .social-icons,
 .footer-links-list,
 .footer-legal,
-.footer-legal-text {
+.footer-legal-text,
+.nav-top,
+.sticky-header-top,
+.sticky-header-left {
   display: flex;
 }
 
 .sticky-header-search {
   justify-content: center;
-  align-items: center;
   height: 48px;
   width: 48px;
   font-size: 1.1rem;
@@ -209,9 +230,7 @@ footer {
 }
 
 .hamburger-menu {
-  display: none;
   justify-content: center;
-  align-items: center;
   height: 48px;
   width: 48px;
   font-size: 1.1rem;
@@ -234,7 +253,6 @@ footer {
 .yellow-bar {
   height: 30px;
   font-size: 12px;
-  align-items: center;
   background-color: #fd3;
   padding-left: 120px;
   color: rgba(0, 0, 0, 0.8);
@@ -245,7 +263,6 @@ footer {
 }
 
 .funding-tags a {
-  display: block;
   position: relative;
   font-size: 13px;
   color: #555;
@@ -259,7 +276,6 @@ footer {
   font-weight: 400;
   color: #555;
   margin-right: 1em;
-  display: block;
 }
 
 .social-icon-item a {
@@ -268,7 +284,6 @@ footer {
   width: 40px;
   border-radius: 50%;
   margin: 10px;
-  align-items: center;
   justify-content: center;
 }
 
@@ -304,7 +319,6 @@ footer {
 
 .cover-main-top {
   flex-basis: 70%;
-  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -414,10 +428,6 @@ footer {
 }
 
 /* funding section */
-
-.funding-header {
-  justify-content: space-between;
-}
 
 .funding-header a:hover {
   color: #000;
@@ -594,7 +604,6 @@ footer {
 }
 
 .section-flash {
-  font-family: sans-serif;
   font-size: 13px;
 }
 
@@ -617,7 +626,6 @@ footer {
   max-width: 368px;
   height: 100px;
   background-color: rgba(255, 68, 34, 0.05);
-  justify-content: space-between;
   margin-top: 3px;
 }
 
@@ -648,7 +656,6 @@ footer {
 /* latest deals */
 
 .latest-deals-headline {
-  justify-content: space-between;
   padding-bottom: 10px;
 }
 
@@ -683,7 +690,8 @@ h3.deals-bottom-line {
 
 /* footer */
 
-footer {
+footer,
+.nav-top {
   background-color: #131313;
 }
 
@@ -719,7 +727,6 @@ footer {
   height: 100px;
   color: rgba(255, 255, 255, 0.7);
   font-size: 10px;
-  align-items: center;
   justify-content: center;
 }
 
@@ -740,10 +747,7 @@ footer {
     background-image: linear-gradient(to bottom right, #d9117a, #f74120);
   }
 
-  .nav-top {
-    display: none;
-  }
-
+  .nav-top,
   .cover-main-top {
     display: none;
   }
@@ -787,10 +791,7 @@ footer {
 }
 
 @media all and (max-width: 770px) {
-  .nav-top {
-    display: none;
-  }
-
+  .nav-top,
   .sticky-header-links {
     display: none;
   }
@@ -824,8 +825,13 @@ footer {
     flex-direction: column;
   }
 
-  .latest-box-item {
+  .latest-box-item,
+  .latest-box-item h4,
+  .section-pic-box {
     max-width: 100%;
+  }
+
+  .latest-box-item {
     min-height: 0;
     max-height: 88px;
     margin-right: 30px;
@@ -840,7 +846,6 @@ footer {
 
   .latest-box-item h4 {
     padding-left: 0;
-    max-width: 100%;
   }
 
   .funding-container {
@@ -853,11 +858,6 @@ footer {
 
   #section-item-box-last {
     flex-basis: 100%;
-  }
-
-  .section-pic-box {
-    max-width: 100%;
-    max-height: 100%;
   }
 
   .section-2nd-story-box {
