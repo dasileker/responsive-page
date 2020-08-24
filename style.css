@@ -753,6 +753,11 @@ footer,
   .cover-main-top {
     display: none;
   }
+
+  .latest,
+  .latest-pic-container img {
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 1024px) {
@@ -789,6 +794,11 @@ footer,
 
   .section-2nd-story-box {
     max-width: 475px;
+  }
+
+  .latest-pic-container {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
