@@ -1,110 +1,745 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Copse&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-
-    <title>Responsive Desing Project</title>
-</head>
-<body>
-    <header>
-       <div class="nav-bar">
-        <p>Text</p>
-            <ul class="link">
-                <li class="link"><a href="#">link 1</a></li>
-                <li class="link"><a href="#">link 2</a></li>
-                <li class="link"><a href="#">link 3</a></li>
-                <li class="link"><a href="#">link 4</a></li>
-                <li class="link"><a href="#">link 5</a></li>
-            </ul>
-            
-       </div>
-
-            <nav>
-                <ul class="linke">
-                    <li class="link"><a href="#">link 6</a></li>
-                    <li class="link"><a href="#">link 7</a></li>
-                    <li class="link"><a href="#">link 8</a></li>
-                    <li class="link"><a href="#">link 9</a></li>
-                </ul>
-            </nav>
-            
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Secular+One&display=swap" rel="stylesheet">
+    <title>TNW-NEXT-WEB</title>
+  </head>
+  <body>
+    <header class="header-box">
+      <div class="nav-top">
+        <div class="nav-top-links-left">
+          <ul>
+            <li id="news"><a href=""></a>News</li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">AMAs</a></li>
+            <li><a href="#">Spaces</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="nav-top-links-right">
+          <ul>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Advertise</li>
+            <li><a href="#"></a>Jobs</li>
+            <li><a href="#"></a>Contact</li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <nav class="nav-bar2">
-        <ul class="links">
-            <li class="link"><a href="#">link 10</a></li>
-            <li class="link"><a href="#">link 11</a></li>
-            <li class="link"><a href="#">link 12</a></li>
-            <li class="link"><a href="#">link 13</a></li>
-            <li class="link"><a href="#">link 14</a></li>
-            <li class="link"><a href="#">link 15</a></li>
-            <li class="link"><a href="#">link 16</a></li>
-        </ul>
-        <i class="fa fa-search"></i>
-        <h3>TNW 2020</h3>
-        <p><span>44 : 18 : 18 : 00</span></p>
-        <button type="button">submit</button>
-
-    </nav>
-    <div class="line">
-        <p>text area here ut somthing inside this box <i class="fa fa-arrow-right"></i></p>
+    <div id="sticky-header">
+      <div class="sticky-header-top">
+        <div class="sticky-header-left">
+          <div id="logo-box" class="logo-box-hidden">
+            <a href="#">  <img src="assets/images/tnw.svg" alt="TNW" width="66" height="16"> </a>
+          </div>
+          <div class="sticky-header-links">
+            <ul>
+              <li><a href="#">latest</a></li>
+              <li><a href="#">hard fork</a></li>
+              <li><a href="#">plugged</a></li>
+              <li><a href="#">read me</a></li>
+              <li><a href="#">growth quarter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sticky-header-right">
+          <div class="sticky-header-search">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="hamburger-menu">
+            <a href=""><i class="fas fa-bars"></i></a>  
+          </div>
+        </div>
+      </div>
+      <div class="yellow-bar">
+        <p>Join TNW2020, our 15th annual flagship event. Online. Get ti</p>
+      </div>
     </div>
-
-    <main>
-        <div class="img-grid">
-            <img src="images/" alt="logo1">
-            <div class="aside">
-                <img src="images/" alt="logo2">
-                <img src="images/" alt="logo3">
+    <div class="hero-box">
+      <div class="cover-articles">
+        <div class="cover-article-main">
+          <div class="cover-main-top">
+            <div class="cover-main-top-logo">
+              <img src="assets/images/tnw.svg" alt="TNW" width="400" height="100">
             </div>
+            <div class="cover-main-top-date">
+              <P>3 June 2020</P>
+            </div>
+          </div>
+          <div class="main-headline">
+            <a href="#">
+            Bitcoin Plummets almost $700 in an hour, back below $10k
+            </a>
+          </div>
+          <div class="main-bottom-line">
+            <span class="cover-article-byline">
+            by Satoshi Nakabota
+            </span>
+            <span class="cover-article-time">
+            &#9788; 36 minutes ago
+            </span>
+          </div>
         </div>
-
-    </main>
-    <section>
-        <p><a href="#"> Text area here ></a></p>
-        <div class="grid">
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            <div>
-                <img src="images/" alt="logo1"><br>
-                <caption>text area here <br><span>TNW deals 1 hours</span></caption>
-            </div>
-            
+        <div class="cover-articles-small cov-art-2">
+          <div class="overpic-article-headline">
+            <h2>Shopify, Basecamp & more share what's next for 
+              digital products on June 11
+            </h2>
+          </div>
         </div>
-    </section>
-    
-</body>
+        <div class="cover-articles-small cov-art-3">
+          <div class="overpic-article-headline">
+            <h2>Muto's $1800 ebike is a simple and 
+              adaptable ride thats fit for life about town
+            </h2>
+          </div>
+          <div class="main-bottom-line">
+            <span class="cover-article-byline">
+            by Matthew beedham
+            </span>
+            <span class="cover-article-time">
+            &#9788; 1 hour ago
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <section class="latest">
+        <div class="latest-headline">
+          <h2 class="orange-link-headline"> <a href="#">  Latest news &#8680; </a></h2>
+        </div>
+        <div class="latest-box">
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news1.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">Snapchat refuses to promote Trump's account over his controversial tweets</h4>
+            <h3 class="main-bottom-line"><a href="#">Joe Bloggs</a> &#8231; just now</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news2.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">Astronomers found an Earth-like exoplanet orbiting the solar systems's nearest star</h4>
+            <h3 class="main-bottom-line"><a href="#">Harry Worth</a> &#8231; 1 day ago</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news4.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">Review: The Burley Travoy is an almost-perfect bike trailer for city life</h4>
+            <h3 class="main-bottom-line"><a href="#">Casper Hauser</a> &#8231; 2 hours ago</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news4.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">Facebook now allows you to swiftly delete your most embarrassing posts</h4>
+            <h3 class="main-bottom-line"><a href="#">Anne Greengables</a> &#8231; 6 hours ago</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news5.jpg" alt="">
+              </a>
+            </div>
+            <h4 class="latest-box-headline">This $350M quant fund plotted the stock market using real-time data - then 2020 happened</h4>
+            <h3 class="main-bottom-line"><a href="#">June Terry</a> &#8231; 1 minute ago</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news6.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">The asteroid that killed the dinosaurs hit at worst possible angle, study finds</h4>
+            <h3 class="main-bottom-line"><a href="#">Mark Lee</a> &#8231; 4 days ago</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news4.jpg" alt="">
+              </a>
+            </div>
+            <h4 class="latest-box-headline">AI conference extends paper submission deadline amid BLM protests</h4>
+            <h3 class="main-bottom-line"><a href="#">Yo Lee</a> &#8231; 3 hours ago</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/news4.jpg" alt="">
+              </a>
+            </div>
+            <h4 class="latest-box-headline">Autonowashing and the dangers of putting too much trust in 'self-driving' cars</h4>
+            <h3 class="main-bottom-line"><a href="#">Mark Unsworth</a> &#8231; 1 day ago</h3>
+          </div>
+        </div>
+      </section>
+      <section class="funding">
+        <div class="funding-header orange-link-headline">
+          <div class="funding-headline">
+            <h4><a href="#">Latest funding rounds on index.co</a></h4>
+          </div>
+          <div class="funding-links">
+            <ul>
+              <li><a href="#">Add info</a></li>
+              <li id="funding-middle"><a href="#">Get updates by email</a></li>
+              <li><a href="#">See More</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="funding-container">
+          <div class="funding-item-box">
+            <div class="funding-card">
+              <a href="#" class="funding-card-top">
+                <img class="funding-logo" src="assets/images/funding1.jpeg" alt="" width="60" height="60">
+                <h4 class="funding-name">NebulaGraph</h4>
+                <div class="funding-after-deets">
+                  <h4>$8M</h4>
+                  <h5>SEED FUND</h5>
+                </div>
+              </a>
+            </div>
+            <div class="funding-tags">
+              <a href="#">
+              <i class="fas fa-tag"></i>
+              <span>Information Technology, +3</span>
+              </a>
+              <a href="#">
+              <i class="fas fa-briefcase"></i>
+              <span>Matrix Partners China</span>
+              </a>
+            </div>
+            <div class="funding-details">
+              <a href="#">Redpoint joins Pre-A Round In Chinese NebulaGraph
+              Database Developer NebulaGraph - China Money Network
+              </a>
+            </div>
+          </div>
+          <div class="funding-item-box">
+            <div class="funding-card">
+              <a href="#" class="funding-card-top">
+                <img class="funding-logo" src="assets/images/funding2.jpeg" alt="" width="60" height="60">
+                <h4 class="funding-name">Cloud9 Technologies</h4>
+                <div class="funding-after-deets">
+                  <h4>$17.5M</h4>
+                  <h5>SERIES B</h5>
+                </div>
+              </a>
+            </div>
+            <div class="funding-tags">
+              <a href="#">
+              <i class="fas fa-tag"></i>
+              <span>Internet, +2</span>
+              </a>
+              <a href="#">
+              <i class="fas fa-briefcase"></i>
+              <span>Barclays Investment Bank, +2</span>
+              </a>
+            </div>
+            <div class="funding-details">
+              <a href="#">Cloud9 Technologies secures $17.5m in Series 
+              B funding
+              </a>
+            </div>
+          </div>
+          <div class="funding-item-box">
+            <div class="funding-card">
+              <a href="#" class="funding-card-top">
+                <img class="funding-logo" src="assets/images/funding3.jpeg" alt="" width="60" height="60">
+                <h4 class="funding-name">Routinify</h4>
+                <div class="funding-after-deets">
+                  <h4>$1.5M</h4>
+                  <h5>VENTURE CAPITAL</h5>
+                </div>
+              </a>
+            </div>
+            <div class="funding-tags">
+              <a href="#">
+              <i class="fas fa-tag"></i>
+              <span>Fitness</span>
+              </a>
+              <a href="#">
+              <i class="fas fa-briefcase"></i>
+              <span>Resolute Capital Partners</span>
+              </a>
+            </div>
+            <div class="funding-details">
+              <a href="#">Routinify Raises $1.5M in Equity
+              Funding
+              </a>
+            </div>
+          </div>
+          <div class="funding-item-box">
+            <div class="funding-card">
+              <a href="#" class="funding-card-top">
+                <img class="funding-logo" src="assets/images/funding4.jpeg" alt="" width="60" height="60">
+                <h4 class="funding-name">Cullinan Oncology</h4>
+                <div class="funding-after-deets">
+                  <h4>$98.5M</h4>
+                  <h5>SERIES B</h5>
+                </div>
+              </a>
+            </div>
+            <div class="funding-tags">
+              <a href="#">
+              <i class="fas fa-tag"></i>
+              <span>Biotechnology</span>
+              </a>
+              <a href="#">
+              <i class="fas fa-briefcase"></i>
+              <span>MPM Capital</span>
+              </a>
+            </div>
+            <div class="funding-details">
+              <a href="#">Cullinan Oncology Closes $98.5M Series B 
+              Financing Round
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section section section section -->
+      <section class="section-links">
+        <div class="section-container">
+          <div class="section-item-box">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Apps</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb1">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">Reddit's co-founder resigns, asks to
+                  be replaced by a black candidate</a>
+                </h2>
+                <h5 class="section-byline">Rachel Kaser &#8231; 13 hours ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">Facebook begins placing labels on posts
+                  by 'state controled media'
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml1.png" alt="" style="height: 96px; width: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>Everyone can now use Facebook’s Google Photos export tool</li>
+                <li>Google faces $5 billion lawsuit over tracking users in incognito mode</li>
+                <li>Snapchat refuses to promote Trump's account over his controversial tweets</li>
+                <li>Facebook now allows you to swiftly delete your most embarrassing posts</li>
+                <li>Zuckerberg won't budge on violent Trump posts despite employee protests</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-item-box">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Gear</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb2">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">Look, I don't care if 'The Outer Worlds'
+                  is bad
+                  </a>
+                </h2>
+                <h5 class="section-byline">Callum Booth &#8231; 3 hours ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">Huawei's new phone can take your temperature because
+                  coronavirus
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml2.jpg" alt="" style="width: 96px; height: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>51 Worldwide games is now a relaxing part of lockdown life</li>
+                <li>Protesting? Here's how to turn off location services on iOS and Android</li>
+                <li>Review: The Burley Travor is an almost-perfect bike trailer for city life</li>
+                <li>Xiaomi dual driver earbuds cost only $11, but they handle Zoom calls just fine</li>
+                <li>The new iPad Air ditching the lightning connector is the shape of things to come</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-item-box">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Tech</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb3">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">A brief history of bad logo redesigns - 
+                  and what designers can learn from them
+                  </a>
+                </h2>
+                <h5 class="section-byline">Micah Bowers &#8231; 13 hours ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">The case for biometric authentication - 
+                  and why we should ditch passwords
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml3.jpg" alt="" style="height: 96px; width: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>Who's allowed to track my kids online?</li>
+                <li>Ohio's government is helping its residents switch to EV's</li>
+                <li>How to detect unwanted bias in machine learning models</li>
+                <li>Look, I don't care if the outer worlds switch port is bad</li>
+                <li>Get the fundamentals of DevOps right - then worry about the tools</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-item-box">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Creative</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb4">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">There's an actual science to 
+                  good instagram photos
+                  </a>
+                </h2>
+                <h5 class="section-byline">Andrea Hak &#8231; 12 days ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">This CSS library makes it easy to design Windows 
+                  XP inspired UIs
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml4.jpg" alt="" style="width: 96px; height: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>This AI wrote such emo lyrics that humans thought it was My Chemical Romance</li>
+                <li>This CSS library makes it easy to build Windows 98-inspired UIs</li>
+                <li>Why we are hardwired to focus on the wrong parts of our product</li>
+                <li>Animal Crossing player masterfully recreates 'Hyrule' from The Legend of Zelda</li>
+                <li>Life imitating art: Quarantined people remix famous painting with household items</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-item-box">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Podium</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb5">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">Coming out trans in tech: An entrepreneur's 
+                  experience
+                  </a>
+                </h2>
+                <h5 class="section-byline">Joan Westerburg &#8231; 13 hours ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">An entrepreneur's guide to COVID-19
+                  tech news in May
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml5.jpg" alt="" style="width: 96px; height: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>Why Gary Vaynerchuk' 12 hour TikTok telethon was almost worth watching</li>
+                <li>No need to mourn the death of the third-party cookie</li>
+                <li>What advocates for internet provacy can learn from Greta Thunberg</li>
+                <li>Tech in Latin America: An entrepreneur's guide to April's startup news</li>
+                <li>Run an online store? In the age of covid-19, you can't skimp on web accessibility</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-item-box">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Insights</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb6">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">Bill Gates commits $750M to 
+                  help Oxford vaccinate the world against COVID-19
+                  </a>
+                </h2>
+                <h5 class="section-byline">David Canellis &#8231; 13 hours ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">Call of Duty: Warzone now shows message of support
+                  for Black Lives Matter
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml6.jpg" alt="" style="width: 96px; height: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>Watch: Unboxing of a $1000 mail order electric car from China</li>
+                <li>Report: GM adds electric van to its upcoming EV fleet in a bid to rival Tesla</li>
+                <li>Elon Musk is 55% richer in 2020 - but Jeff Bezos is still tech's billionaire daddy</li>
+                <li>Satoshi Nakaboto: Bitcoin is on it's way back to $10,000</li>
+                <li>Hey snoozy Susan, here's how to stop falling asleep at work</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-item-box" id="section-item-box-last">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Launch</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb7">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">Facebook takes another stab at enabling free mobile
+                  web access with its new discover app
+                  </a>
+                </h2>
+                <h5 class="section-byline">Ivan Mahta &#8231; 4 weeks ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">Facebook-backed Reliance pilots 
+                  basic grocery ordering service on Whatsapp in India
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml7.jpg" alt="" style="width: 96px; height: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>Googles coronavirus information site is now live</li>
+                <li>The compact EV that's too cute for words</li>
+                <li>TNW announces Neural: A blog for human-centric AI news and analysis</li>
+                <li>PSA: Amazon Fresh grocery deliveries are now free for US Prime members</li>
+                <li>Alexis Ohanian and Serj Tankian team up to help build a social network for Armenia</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-item-box" id="section-item-box-last1">
+            <div class="section-headline">
+              <h2 class="orange-link-headline"><a href="#">Distract</a></h2>
+            </div>
+            <div class="section-pic-box" id="spb8">
+              <div class="section-pic-text-box">
+                <h4 class="section-flash">MOST POPULAR</h4>
+                <h2 class="section-pic-headline"><a href="">The Criterion Channel removes
+                  paywall to classic black cinema in support of Black Lives Matter
+                  </a>
+                </h2>
+                <h5 class="section-byline">Rachel Kaser &#8231; 1 day ago</h5>
+              </div>
+            </div>
+            <div class="section-2nd-story-box">
+              <div class="section-secound-story-text">
+                <h4 class="section-2nd-flash">LATEST</h4>
+                <h2 class="section-pic-headline">This tiny game runs directly in your 
+                  browser's title bar
+                </h2>
+              </div>
+              <div class="second-story-thumb">
+                <img src="assets/images/sectionsml8.jpg" alt="" style="width: 96px; height: 96px;">
+              </div>
+            </div>
+            <div class="section-other-links-box">
+              <ul>
+                <li>Apple 'begs' Escobar for extension in lawsuit</li>
+                <li>Google searches for 'insomnia' and 'can't sleep' hit all-time high during lockdown</li>
+                <li>It's time for a sequal to The Social Network and Quentin Tarantino should direct it</li>
+                <li>Devious Call of Duty pranksters are building shitty guns to fool players in Warzone</li>
+                <li>This tool helps you send emails directly to the recipient's spam box</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION ******************DEALS*********************************************** -->
+      <section class="latest latest-deals">
+        <div class="latest-headline latest-deals-headline">
+          <h2 class="orange-link-headline"> <a href="#">  Latest deals &#8680; </a></h2>
+          <h4 class="deals-right"><a href="#">See all Deals</a></h4>
+        </div>
+        <div class="latest-box">
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals1.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">FREE: Leadership & Management Diploma 4-week Course</h4>
+            <h3 class="deals-bottom-line"><a id="old-price0" href="#">$20</a> $0</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals2.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">The Limited Edition Mac Bundle Ft. Parallesl Desktop</h4>
+            <h3 class="deals-bottom-line"><a id="old-price1" href="#">$20</a> $19.99</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals3.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">DarwinMail Professional Plan:Lifetime Subscription</h4>
+            <h3 class="deals-bottom-line"><a id="old-price2" href="#">$200</a> $109.99</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals4.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">The Epic Python Developer Certification Bundle</h4>
+            <h3 class="deals-bottom-line"><a id="old-price3" href="#">$20</a> $19.99</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals5.jpg" alt="">
+              </a>
+            </div>
+            <h4 class="latest-box-headline">FastestVPN: Lifetime Subscription ( 5 Devices)</h4>
+            <h3 class="deals-bottom-line"><a id="old-price4" href="#">$99</a> $59.99</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals6.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">ITG.Digital Online Illustrations Builder Pro: Lifetime Subscription</h4>
+            <h3 class="deals-bottom-line"><a id="old-price5" href="#">$34</a> $19.99</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals7.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">KeepSolid VPN Unlimited: Lifetime Subscription</h4>
+            <h3 class="deals-bottom-line"><a id="old-price6" href="#">$77</a> $39.99</h3>
+          </div>
+          <div class="latest-box-item">
+            <div class="latest-pic-container">
+              <a href="#" class="latest-box-pic-link">
+              <img src="assets/images/deals8.jpg" alt="" >
+              </a>
+            </div>
+            <h4 class="latest-box-headline">Project Management Certifications Test + Course Bundle</h4>
+            <h3 class="deals-bottom-line"><a id="old-price7" href="#">$20</a> $19.99</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer-links">
+        <div class="social-icons">
+          <div class="social-icon-item">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </div>
+          <div class="social-icon-item">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="social-icon-item">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="social-icon-item">
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+          </div>
+          <div class="social-icon-item">
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+          <div class="social-icon-item">
+            <a href="#"><i class="fas fa-wifi"></i></a>
+          </div>
+          <div class="social-icon-item">
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer-links-list">
+          <div><a href="#">EVENTS</a></div>
+          <div><a href="#">ABOUT</a></div>
+          <div><a href="#">ADVERTISE</a></div>
+          <div><a href="#">JOBS</a></div>
+          <div><a href="#">CONTACT</a></div>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <div class="footer-legal-text">
+          <a href="#">  <img src="assets/images/tnw.svg" alt="TNW" width="40" height="10"> </a> 
+          <div> &#169; 2006 - 2020 The Next Web B.V Made with <span id="heart"> &hearts;</span> in Amsterdam. Powered by STACKPATH</div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      window.onscroll = function() { stickHeader()};
+      
+      var header = document.getElementById("sticky-header");
+      
+      var sticky = header.offsetTop;
+      
+      var logoBox = document.getElementById("logo-box")
+      
+      function stickHeader() {
+          if (window.pageYOffset > sticky) {
+              header.classList.add("sticky-top");
+              logoBox.classList.remove("logo-box-hidden");
+              logoBox.classList.add("logo-box-visible");
+          } else {
+              header.classList.remove("sticky-top");
+              logoBox.classList.remove("logo-box-visible");
+              logoBox.classList.add("logo-box-hidden");
+          } 
+      }    
+    </script>
+    <script src="https://kit.fontawesome.com/cace2cc9e8.js" crossorigin="anonymous"></script>
+  </body>
 </html>
