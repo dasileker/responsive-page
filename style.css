@@ -221,7 +221,6 @@ footer {
 }
 
 .sticky-header-search {
-  justify-content: center;
   height: 48px;
   width: 48px;
   font-size: 1.1rem;
@@ -230,7 +229,6 @@ footer {
 }
 
 .hamburger-menu {
-  justify-content: center;
   height: 48px;
   width: 48px;
   font-size: 1.1rem;
@@ -278,13 +276,21 @@ footer {
   margin-right: 1em;
 }
 
+.social-icon-item a,
+.social-icons,
+.footer-links-list,
+.footer-legal,
+.sticky-header-search,
+.hamburger-menu {
+  justify-content: center;
+}
+
 .social-icon-item a {
   background-color: #333;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   margin: 10px;
-  justify-content: center;
 }
 
 .footer-legal-text a {
@@ -699,7 +705,6 @@ footer,
   padding-top: 40px;
   flex-wrap: wrap;
   color: #fff;
-  justify-content: center;
 }
 
 .social-icon-item a:hover {
@@ -711,7 +716,6 @@ footer,
   padding-top: 20px;
   padding-bottom: 20px;
   color: rgba(255, 255, 255, 0.7);
-  justify-content: center;
 }
 
 .footer-links-list > * {
@@ -727,7 +731,6 @@ footer,
   height: 100px;
   color: rgba(255, 255, 255, 0.7);
   font-size: 10px;
-  justify-content: center;
 }
 
 #heart {
